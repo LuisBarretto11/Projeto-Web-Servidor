@@ -25,22 +25,22 @@
 
         <form action="cadastro.php?action=store" method="post">
             <label>Número do Voo:</label>
-            <input type="text" name="numero_voo" required>
+            <input type="text" name="numero_voo">
 
             <label>Origem:</label>
-            <input type="text" name="origem" required>
+            <input type="text" name="origem">
 
             <label>Destino:</label>
-            <input type="text" name="destino" required>
+            <input type="text" name="destino">
 
             <label>Data:</label>
-            <input type="date" name="data" required>
+            <input type="date" name="data">
 
             <label>Hora:</label>
-            <input type="time" name="horario" required>
+            <input type="time" name="horario">
 
             <label>Status:</label>
-            <input type="text" name="status" required>
+            <input type="text" name="status">
 
             <button type="submit">Cadastrar Voo</button>
         </form>

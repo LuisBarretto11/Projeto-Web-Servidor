@@ -1,0 +1,2 @@
+{"numero_voo":"1","origem":"aaa","destino":"bbb","data_voo":"0022-02-22","horario_voo":null,"status_voo":null}
+{"numero_voo":"1245","origem":"sp","destino":"amazonas","data_voo":"2024-12-22","horario":"07:00","status":"Confirmado"}

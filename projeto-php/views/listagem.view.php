@@ -49,7 +49,7 @@
                 ?>
             </tbody>
         </table>
-
+        <a href="home.php" class="btn btn-secondary">Voltar à Home</a>
         <a href="cadastro.php" class="btn btn-primary">Adicionar Voos</a>
     </div>
 </body>

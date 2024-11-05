@@ -1,3 +1,4 @@
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,6 +44,7 @@
 
             <button type="submit">Cadastrar Voo</button>
         </form>
+        <a href="home.php" class="btn btn-secondary">Voltar à Home</a>
     </div>
 </body>
 </html>

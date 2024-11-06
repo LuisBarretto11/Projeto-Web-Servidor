@@ -7,7 +7,7 @@ Para a instalação do nosso aplicativo, será necessario seguir os seguintes pa
 
 **Obter o Código**: Clone ou baixe o repositório do código-fonte do aplicativo para o seu computador.
 
-**Configurar servidor local**: Inicie o Apache no painel de controle do XAMPP. No seu navegador, acesse o endereço http://localhost/nome_do_projeto, substituindo "nome_do_projeto" pelo nome da pasta onde o código foi copiado(pelos testes dos alunos, é ideal colocar a pasta que tiver o porjeto na pasta do XAMPP, 'htdocs').
+**Configurar servidor local**: Inicie o Apache no painel de controle do XAMPP. No seu navegador, acesse o endereço http://localhost/nome_do_projeto, substituindo "nome_do_projeto" pelo nome da pasta onde o código foi copiado(pelos testes dos alunos, é ideal colocar a pasta que tiver o projeto na pasta do XAMPP, 'htdocs').
 
 ## Configuração
 PHP 8.2

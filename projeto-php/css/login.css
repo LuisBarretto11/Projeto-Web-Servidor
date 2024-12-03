@@ -27,11 +27,6 @@ h2{
 form{
     display: flex;
     flex-direction: column;
-}
-
-label{
-    color: #333;
-    font-weight: bold;
     margin: 10px 0 5px;
 }
 
@@ -43,6 +38,7 @@ input[type="password"]{
     font-size: 16px;
     margin-bottom: 10px;
 }
+
 
 button{
     padding: 12px;
@@ -63,4 +59,8 @@ button:hover{
     color: red;
     font-size: 14px;
     margin-top: 10px;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: #f8d7da;
+    border-radius: 4px;
 }

@@ -16,6 +16,13 @@
             </div>
         <?php endif; ?>
 
+        <?php 
+        if(isset($_SESSION['mensagem_sucesso'])){
+            echo "<p style='color: green; texte-align: left;'>" . $_SESSION['mensagem_sucesso'] . "</p>";
+            unset($_SESSION['mensagem_sucesso']);
+        }
+        ?> 
+
         <form action="login.php?action=autenticar" method="POST">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>

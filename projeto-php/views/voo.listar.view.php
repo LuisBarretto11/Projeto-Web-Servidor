@@ -36,7 +36,7 @@
         </table>
 
         <a href="cadastro.php" class="btn-add">Adicionar Voo</a>
-        <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
+        <a href="home.php" class="btn-voltar">Voltar</a>
     </div>
 </body>
 </html>

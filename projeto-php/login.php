@@ -9,8 +9,6 @@ if(isset($_SESSION['login_error'])){
     unset($_SESSION['login_error']);
 }
 
-
-
 $action = $_GET['action'] ?? 'login';
 
 switch($action){

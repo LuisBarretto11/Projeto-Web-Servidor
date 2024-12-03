@@ -30,7 +30,7 @@
 
             <button type="submit">Cadastrar Voo</button>
         </form>
-        <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
+        <a href="home.php" class="btn-voltar">Voltar</a>
     </div>
 </body>
 </html>

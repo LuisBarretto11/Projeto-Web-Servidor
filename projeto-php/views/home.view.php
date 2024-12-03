@@ -1,12 +1,9 @@
-<div>
+<div class="container">
+    <h2>Bem Vindo!</h2>
+    
     <div class="home-buttons">
-        <form action="cadastro.php" method="GET">
-            <input type="hidden" name="action" value="create">
-            <button type="submit">Cadastrar Voos</button>
-        </form>
-        <form action="listagem.php" method="GET">
-            <button type="submit">Listagem de Voos</button>
-        </form>
+        <a href="listagem.php" class="btn-primary">Ver Voos</a>
+        <a href="cadastroVoo.php" class="btn btn-success">Cadastrar Novo Voo</a>
+        <a href="home.php?action=logout" class="btn btn-danger">Sair</a>
     </div>
-    <a href="login.php?action=logout">Sair</a>
 </div>

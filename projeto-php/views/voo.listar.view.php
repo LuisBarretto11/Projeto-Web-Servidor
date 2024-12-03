@@ -28,7 +28,7 @@
                         <td> <?php echo $voo->horario; ?></td>
                         <td> <?php echo $voo->status; ?></td>
                         <td>
-                            <a href="voo.controller.php?action=remover&id= <?php echo $voo->id;?> ">Remover</a>
+                            <a href="listagem.php?action=excluir&id=<?php echo $voo->id;?>">Remover</a>
                         </td>
                     </tr>
                 <?php endforeach; ?>

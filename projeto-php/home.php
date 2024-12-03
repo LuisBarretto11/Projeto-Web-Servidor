@@ -1,3 +1,21 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['usuario'])){
+    header('Location: login.php');
+    exit;
+}
+
+$usuario = $_SESSION['usuario'];
+
+if(isset($_GET['action']) && $_GET['action'] == 'logout'){
+    require_once 'controllers/usuario.controller.php';
+    $usuarioController = new UsuarioController();
+    $usuarioController->logout();
+    exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +25,6 @@
     <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Bem Vindo</h2>
-        <div class="home-buttons">
-            <?php include ('views/home.view.php'); ?>
-        </div>
-    </div>
+     <?php include('views/home.view.php'); ?>
 </body>
 </html>

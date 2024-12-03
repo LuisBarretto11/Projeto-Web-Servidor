@@ -50,19 +50,8 @@ class Voo{
     public static function remover($id){
         $pdo = Conexao::getConexao();
         $stmt = $pdo->prepare("DELETE FROM voos WHERE id = :id");
-        $stmt->execute([':id' => $id]);
-    }
-
-    public static function buscarPorId($id){
-        $pdo = Conexao::getConexao();
-        $stmt = $pdo->prepare("SELECT * FROM voos WHERE id = :id");
-        $stmt->execute([':id' => $id]);
-        $resultado = $stmt->fetch(PDO::FETCH_ASSOC);
-
-        if($resultado){
-            return new Voo($resultado['numero_voo'], $resultado['origem'], $resultado['destino'], $resultado['data_voo'], $resultado['horario'], $resultado['status'], $resultado['id']);
-        }
-        return null;
+        $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+        $stmt->execute();
     }
 }
 

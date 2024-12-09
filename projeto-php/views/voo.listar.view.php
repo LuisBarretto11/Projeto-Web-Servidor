@@ -35,7 +35,7 @@
             </tbody>
         </table>
 
-        <a href="cadastro.php" class="btn-add">Adicionar Voo</a>
+        <a href="cadastroVoo.php" class="btn-add">Adicionar Voo</a>
         <a href="home.php" class="btn-voltar">Voltar</a>
     </div>
 </body>
